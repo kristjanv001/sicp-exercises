@@ -1,3 +1,7 @@
+; Exercise 1.1: Below is a sequence of expressions. What is the result printed by the interpreter in response to each expression? Assume that the sequence is to be evaluated in the order in which it is presented.
+
+
+
 ; 10 
 ; --> 10
 
@@ -15,7 +19,7 @@
 ; We evaluate "*" and "-"  separately, then "+"
 ; --> 6
 
-(define a 3) ; a = 3
+(define a 3)
 ; We define a as 3
 ; --> 3
 
@@ -49,4 +53,6 @@
 (* (cond ((> a b) a) ((< a b) b) (else -1)) (+ a 1))
 ; 3 is not greater than 4, 3 is smaller than 4, so 4 is returned, so we multiply 4 with 3 + 1
 ; --> 16
+
+
 (quit)
