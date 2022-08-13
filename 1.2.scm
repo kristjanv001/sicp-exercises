@@ -1,3 +1,4 @@
+; Exercise 1.2: 
 ; Translate the following expression into prefix form:
 ; https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e1
 

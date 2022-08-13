@@ -8,3 +8,9 @@ https://sarabander.github.io/sicp/
 ## Installing MIT/GNU Scheme on an M1 Apple computer
 
 https://kennethfriedman.org/thoughts/2021/mit-scheme-on-apple-silicon/
+
+## Running
+
+```
+scheme --load filename.scm
+```
